@@ -225,3 +225,9 @@ Thumbs.db
 
 # Node modules (if using npm for Claude Code)
 node_modules/
+
+# Claude Code local settings
+.claude/
+
+# Cursor local settings
+.cursor/
