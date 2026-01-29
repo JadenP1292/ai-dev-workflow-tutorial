@@ -77,11 +77,11 @@
 
 ### Implementation for User Story 2
 
-- [ ] T016 [US2] Implement get_monthly_sales(df) function that groups by month and sums total_amount in app.py
-- [ ] T017 [US2] Implement create_trend_chart(monthly_df) function using plotly.express.line() in app.py
-- [ ] T018 [US2] Configure trend chart with title "Sales Trend Over Time", x-axis label "Month", y-axis label "Sales ($)" in app.py
-- [ ] T019 [US2] Add trend chart to dashboard layout using st.plotly_chart() with use_container_width=True in app.py
-- [ ] T020 [US2] Verify trend chart displays 12 months of data in chronological order with working tooltips
+- [x] T016 [US2] Implement get_monthly_sales(df) function that groups by month and sums total_amount in app.py
+- [x] T017 [US2] Implement create_trend_chart(monthly_df) function using plotly.express.line() in app.py
+- [x] T018 [US2] Configure trend chart with title "Sales Trend Over Time", x-axis label "Month", y-axis label "Sales ($)" in app.py
+- [x] T019 [US2] Add trend chart to dashboard layout using st.plotly_chart() with use_container_width=True in app.py
+- [x] T020 [US2] Verify trend chart displays 12 months of data in chronological order with working tooltips
 
 **Checkpoint**: User Story 2 complete - Trend analysis available. Dashboard now shows KPIs + trend.
 
