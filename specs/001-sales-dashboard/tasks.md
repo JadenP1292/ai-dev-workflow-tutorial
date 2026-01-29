@@ -95,11 +95,11 @@
 
 ### Implementation for User Story 3
 
-- [ ] T021 [US3] Implement get_sales_by_category(df) function that groups by category, sums total_amount, and sorts descending in app.py
-- [ ] T022 [US3] Implement create_category_chart(category_df) function using plotly.express.bar() in app.py
-- [ ] T023 [US3] Configure category chart with title "Sales by Category", x-axis label "Category", y-axis label "Sales ($)" in app.py
-- [ ] T024 [US3] Add category chart to dashboard layout in left column using st.plotly_chart() in app.py
-- [ ] T025 [US3] Verify category chart displays all 5 categories sorted by value with working tooltips
+- [x] T021 [US3] Implement get_sales_by_category(df) function that groups by category, sums total_amount, and sorts descending in app.py
+- [x] T022 [US3] Implement create_category_chart(category_df) function using plotly.express.bar() in app.py
+- [x] T023 [US3] Configure category chart with title "Sales by Category", x-axis label "Category", y-axis label "Sales ($)" in app.py
+- [x] T024 [US3] Add category chart to dashboard layout in left column using st.plotly_chart() in app.py
+- [x] T025 [US3] Verify category chart displays all 5 categories sorted by value with working tooltips
 
 **Checkpoint**: User Story 3 complete - Category analysis available. Dashboard now shows KPIs + trend + categories.
 
@@ -113,11 +113,11 @@
 
 ### Implementation for User Story 4
 
-- [ ] T026 [US4] Implement get_sales_by_region(df) function that groups by region, sums total_amount, and sorts descending in app.py
-- [ ] T027 [US4] Implement create_region_chart(region_df) function using plotly.express.bar() in app.py
-- [ ] T028 [US4] Configure region chart with title "Sales by Region", x-axis label "Region", y-axis label "Sales ($)" in app.py
-- [ ] T029 [US4] Add region chart to dashboard layout in right column (beside category chart) using st.plotly_chart() in app.py
-- [ ] T030 [US4] Verify region chart displays all 4 regions sorted by value with working tooltips
+- [x] T026 [US4] Implement get_sales_by_region(df) function that groups by region, sums total_amount, and sorts descending in app.py
+- [x] T027 [US4] Implement create_region_chart(region_df) function using plotly.express.bar() in app.py
+- [x] T028 [US4] Configure region chart with title "Sales by Region", x-axis label "Region", y-axis label "Sales ($)" in app.py
+- [x] T029 [US4] Add region chart to dashboard layout in right column (beside category chart) using st.plotly_chart() in app.py
+- [x] T030 [US4] Verify region chart displays all 4 regions sorted by value with working tooltips
 
 **Checkpoint**: User Story 4 complete - All 4 user stories implemented. Full dashboard functionality achieved.
 
@@ -127,12 +127,12 @@
 
 **Purpose**: Final improvements and deployment preparation
 
-- [ ] T031 Add professional styling with consistent color scheme across all charts in app.py
-- [ ] T032 Add empty state handling for charts when data has no records in app.py
-- [ ] T033 Verify dashboard loads within 5 seconds performance target
-- [ ] T034 Test dashboard in Chrome, Firefox, Safari, and Edge browsers
-- [ ] T035 Run quickstart.md validation checklist to confirm all acceptance criteria met
-- [ ] T036 Prepare for Streamlit Community Cloud deployment (verify requirements.txt and app.py are at root)
+- [x] T031 Add professional styling with consistent color scheme across all charts in app.py
+- [x] T032 Add empty state handling for charts when data has no records in app.py
+- [x] T033 Verify dashboard loads within 5 seconds performance target
+- [x] T034 Test dashboard in Chrome, Firefox, Safari, and Edge browsers
+- [x] T035 Run quickstart.md validation checklist to confirm all acceptance criteria met
+- [x] T036 Prepare for Streamlit Community Cloud deployment (verify requirements.txt and app.py are at root)
 
 **Checkpoint**: Dashboard production-ready. All success criteria met.
 
